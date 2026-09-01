@@ -22,6 +22,8 @@ In your terminal, write:
 ```sh
 cd backend
 mv .env.example .env
+python -v venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 python anemoi-server.py
 ```
